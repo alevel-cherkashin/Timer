@@ -86,7 +86,7 @@ namespace Timer
                 {
                     ShowCurrentTime();
                     //Sleep for one second
-                    Thread.Sleep(100);
+                    Thread.Sleep(1000);
                     //And increment our inner counter
                     _currentTime += 1;
 
